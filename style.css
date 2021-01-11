@@ -1,0 +1,40 @@
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+:root{
+
+    background-color: rgb(30,30,30);
+    font-family: 'Rubik', sans-serif;
+    color: rgb(255,255,255);
+
+}
+
+#MiddleRect{
+    -webkit-animation: fadein 1.5s;
+    margin: auto;
+    width: 50%;
+    position: relative;
+    background-color: rgb(50,50,50);
+    height: 650px;
+    top: 120px;
+    border-radius: 10px;
+    
+}
+
+#IndexHeader{
+    color: rgb(255,255,255);
+    text-align: center;
+    padding: 5px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+.PageLink{
+    position: relative;
+    margin: 30px;
+    left: 260px;
+}
